@@ -42,7 +42,7 @@
         const signature = await generateSignature(API_KEY, API_SECRET, timestamp);
 
         // Construct the request URL
-        const url = `${BASE_URL}/current/${STATION_ID}?api-key=${API_KEY}&t=${timestamp}&api-signature=${signature}&demo=true`;
+        const url = `${BASE_URL}/current/${STATION_ID}?api-key=${API_KEY}&t=${timestamp}&api-signature=${signature}`;
 
         // Fetch data from the API
         const response = await fetch(url);
