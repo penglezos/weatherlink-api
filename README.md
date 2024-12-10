@@ -11,7 +11,7 @@ WeatherLink API Tester is a script based on Javascript designed to facilitate in
 * Davis instruments weather station hardware
 * API Key v2 from https://www.weatherlink.com/account
 
-### Installation instructions
+## Installation instructions
 
 * Clone this repository:
 ```
