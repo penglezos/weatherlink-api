@@ -18,6 +18,8 @@ WeatherLink API Tester is a script based on Javascript designed to facilitate in
 git clone https://github.com/penglezos/weatherlink-api && cd weatherlink-api
 ```
 
+### Javascript method
+
 * Modify `index.html` with your WeatherLink API credentials and station ID:
 ```
 const API_KEY = '';
@@ -26,6 +28,17 @@ const STATION_ID = '';
 ```
 
 * Open `index.html` with any preferred web browser
+
+### Python method
+
+* Modify `weatherlink.py` with your WeatherLink API credentials and station ID:
+```
+API_KEY = ""
+API_SECRET = ""
+STATION_ID = ""
+```
+
+* Execute the following command through terminal `python weatherlink.py`
 
 ## License
 
