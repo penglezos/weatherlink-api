@@ -1,7 +1,7 @@
 import requests
 import hashlib
 import time
-import json  # Module to handle JSON data
+import json
 
 # Your API credentials
 API_KEY = ""
@@ -20,10 +20,9 @@ response = requests.get(url, headers=headers)
 
 # Save the response to a JSON file
 if response.status_code == 200:
-    data = response.json()  # Parse response as JSON
-    # Save the data to a file
+    data = response.json()
     with open("weather_data.json", "w") as json_file:
-        json.dump(data, json_file, indent=4)  # Save with indentation for readability
+        json.dump(data, json_file, indent=4)
     print("Weather data saved to 'weather_data.json'")
 else:
     print(f"Error: {response.status_code}, {response.text}")
