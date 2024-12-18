@@ -18,9 +18,10 @@ headers = {
 # Make the GET request
 response = requests.get(url, headers=headers)
 
-# Save the response to a JSON file
+# Print and save the response to a JSON file
 if response.status_code == 200:
     data = response.json()
+    print(json.dumps(data))
     with open("weather_data.json", "w") as json_file:
         json.dump(data, json_file, indent=4)
     print("Weather data saved to 'weather_data.json'")
