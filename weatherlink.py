@@ -1,6 +1,4 @@
 import requests
-import hashlib
-import time
 import json
 
 # Your API credentials
