@@ -26,7 +26,11 @@ API_SECRET = ""
 STATION_ID = ""
 ```
 
-* Execute the following command through terminal `python weatherlink.py`
+* Execute the following command through terminal:
+
+```
+python weatherlink.py
+```
 
 ## License
 
