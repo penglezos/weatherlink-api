@@ -7,8 +7,11 @@ API_KEY = ""
 API_SECRET = ""
 STATION_ID = ""
 
+# API Endpoint URL (https://weatherlink.github.io/v2-api/api-reference)
+ENDPOINT = "current"
+
 # API URL and headers
-url = f"https://api.weatherlink.com/v2/current/{STATION_ID}"
+url = f"https://api.weatherlink.com/v2/{ENDPOINT}/{STATION_ID}"
 headers = {
     "X-API-Key": API_KEY,
     "X-API-Secret": API_SECRET
