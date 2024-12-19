@@ -4,12 +4,13 @@ A simple WeatherLink API testing script to fetch data.
 
 ## Description
 
-WeatherLink API Tester is a script based on Javascript designed to facilitate interaction and testing with the WeatherLink API, which is typically used to access weather data from Davis Instruments' WeatherLink system. This script's purpose is to streamline the process of sending API requests, receiving responses, and validating the retrieved data.
+WeatherLink API Tester is a Python script designed to facilitate interaction and testing with the WeatherLink API, which is typically used to access weather data from Davis Instruments' WeatherLink system. This script's purpose is to streamline the process of sending API requests, receiving responses, and validating the retrieved data.
 
 ## Requirements
 
 * Davis instruments weather station hardware
 * API Key v2 from https://www.weatherlink.com/account
+* Python package installed
 
 ## Installation instructions
 
@@ -17,19 +18,6 @@ WeatherLink API Tester is a script based on Javascript designed to facilitate in
 ```
 git clone https://github.com/penglezos/weatherlink-api && cd weatherlink-api
 ```
-
-### Javascript method
-
-* Modify `index.html` with your WeatherLink API credentials and station ID:
-```
-const API_KEY = '';
-const API_SECRET = '';
-const STATION_ID = '';
-```
-
-* Open `index.html` with any preferred web browser
-
-### Python method
 
 * Modify `weatherlink.py` with your WeatherLink API credentials and station ID:
 ```
