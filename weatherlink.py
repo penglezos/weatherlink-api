@@ -2,15 +2,15 @@ import os
 import requests
 import json
 
-# Your API credentials
+# Your API v2 credentials
 API_KEY = ""
 API_SECRET = ""
 STATION_ID = ""
 
-# API Endpoint URL (https://weatherlink.github.io/v2-api/api-reference)
+# API v2 Endpoint URL (https://weatherlink.github.io/v2-api/api-reference)
 ENDPOINT = "current"
 
-# API URL and headers
+# API v2 URL and headers
 url = f"https://api.weatherlink.com/v2/{ENDPOINT}/{STATION_ID}"
 headers = {
     "X-API-Key": API_KEY,
